@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/_60dp"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+
+	>
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+
+
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/toolbar_main"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/colorPrimary"
+			android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+			app:popupTheme="@style/Theme.AppCompat.Light"
+			app:menu="@menu/menu"
+			android:elevation="@dimen/_4dp"/>
+	</FrameLayout>
+
+	<!--<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:text="@string/app_name"
+		android:textColor="?attr/sfColorSecondary"
+		android:layout_marginLeft="3dp" />
+
+	<Button android:id="@+id/logout_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:onClick="onLogoutClick"
+		android:text="@string/logout_button"
+		android:background="@android:color/transparent"
+		android:textColor="?attr/sfColorSecondary"/>-->
+</LinearLayout>

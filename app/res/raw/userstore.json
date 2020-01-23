@@ -1,0 +1,65 @@
+{
+	"soups":[
+		{
+			"soupName": "Dashboard_Bucket",
+			"indexes": [
+				{ "path": "key_value", "type": "string" },
+				{ "path": "rsplus__Message__c", "type": "string" },
+				{ "path": "rsplus__Submitted_On__c", "type": "string" },
+				{ "path": "name", "type": "string" },
+				{ "path": "query_field", "type": "string" }
+			]
+		},
+		{
+			"soupName": "SMS_Bucket",
+			"indexes": [
+				{ "path": "rsplus__Related_To__c", "type": "string" },
+				{ "path": "rsplus__Sender_ID__c", "type": "string"},
+				{ "path": "rsplus__Number__c", "type": "string" },
+				{ "path": "rsplus__Message__c", "type": "string" },
+				{ "path": "rsplus__Related_User__c", "type": "string" },
+				{ "path": "rsplus__Channel__c", "type": "string" },
+				{ "path": "rsplus__Processed_Channel__c", "type": "string"},
+				{ "path": "rsplus__Media_Json__c", "type": "string" },
+				{ "path": "rsplus__Submitted_On__c", "type": "string" },
+				{ "path": "rsplus__Related_to_name__c", "type": "string" },
+				{ "path": "rsplus__External_Id_Txt__c", "type": "string" },
+				{ "path": "rsplus__Type__c", "type": "string" },
+				{ "path": "rsplus__Status__c", "type": "string" },
+				{ "path": "rsplus__SMS_ID__c", "type": "string" },
+				{ "path": "rsplus__Read__c", "type": "integer" },
+				{ "path": "rsplus__Status_Message__c", "type": "string"},
+				{ "path": "rsplus__Status_Code__c", "type": "string"},
+				{ "path": "status", "type": "string"}
+			]
+		},
+		{
+			"soupName": "RSP_Templates",
+			"indexes": [
+				{ "path": "rsplus__Number__c", "type": "string" },
+				{ "path": "rsplus__Object_API_Name__c", "type": "string" },
+				{ "path": "rsplus__Message_Body__c", "type": "string" },
+				{ "path": "TemplateObjPrefix", "type": "string" },
+				{ "path": "rsplus__Is_t_WhatsApp_Approved__c", "type": "integer" }
+			]
+		},
+		{
+			"soupName": "Message_Response",
+			"indexes": [
+				{ "path": "balance", "type": "string" },
+				{ "path": "sms", "type": "string" },
+				{ "path": "senderId", "type": "string" },
+				{ "path": "smsId", "type": "string" },
+				{ "path": "statusCode", "type": "string" },
+				{ "path": "statusMsg", "type": "string" },
+				{ "path": "statusDescription", "type": "string" },
+				{ "path": "mobileNumber", "type": "string" },
+				{ "path": "clientId", "type": "string" },
+				{ "path": "messageCount", "type": "integer" },
+				{ "path": "mediaCount", "type": "integer" },
+				{ "path": "deliveryModes", "type": "string" },
+				{ "path": "messageCost", "type": "floating" }
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--<string name="remoteAccessConsumerKey">3MVG9YDQS5WtC11oaoP1Hsvf6zZ6JH56tpYnscq75Risw6bZp61JQ7rX21dFPhJwl8iskx5vbDSnb6DFlvUzE</string>-->
+    <string name="remoteAccessConsumerKey">3MVG9ZL0ppGP5UrCvflzlLN33ALljol5dUXF7.ff7ZH3Gq5W5XORhNIjCF6tPTsJ_VCJh_N3DSO1OBJKIhA2l</string>
+    <string name="androidPushNotificationClientId">907532614011</string>
+    <!--<string name="oauthRedirectURI">sfdc://success</string>-->
+    <string name="oauthRedirectURI">callback://sdk</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+		<item>web</item>
+    </string-array>
+</resources>

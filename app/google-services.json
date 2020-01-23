@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "907532614011",
+    "firebase_url": "https://valuetext-ee019.firebaseio.com",
+    "project_id": "valuetext-ee019",
+    "storage_bucket": "valuetext-ee019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907532614011:android:a84d9b3966aa80cb2225de",
+        "android_client_info": {
+          "package_name": "com.valuetext1android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907532614011-qbj9d15vcuq7ifk04dvbtb88678v90hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvU6y9y7BNa6Qk0nI8_zPFxnRQVJVFSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907532614011-qbj9d15vcuq7ifk04dvbtb88678v90hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

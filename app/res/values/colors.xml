@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#3F80B4</color>
+    <color name="colorPrimaryDark">#22487A</color>
+    <color name="colorAccent">#EA7151</color>
+
+    <color name="colorSelected">#fbffff</color>
+    <color name="colorLightGray">#f1f1f1</color>
+    <color name="colorCaption">#000</color>
+    <color name="chatbackground">#ECE5DD</color>
+    <color name="textcolor">#7F7F7F</color>
+    <color name="chatsend">#25d366</color>
+    <color name="cp">#008A64</color>
+    <color name="grey">#757D75</color>
+    <color name="transparent">#00000000</color>
+    <color name="cpDark">#00574B</color>
+
+</resources>
+
+
